@@ -92,11 +92,3 @@ def find_title(day):
     #print(news)
     #news = news.replace('[视频]', '')
     return(news_all)
-
-'''
-def email_send(rsp):
-    # 发送数据到邮箱
-    yag = yagmail.SMTP(user='cnhuyf@outlook.com', password='0910744hyf.', host='smtp-mail.outlook.com', port=587)
-    yag.send(to=["huyifan@csrc.gov.cn"], subject=f"{day}日新闻联播推送", contents=rsp)
-    print('邮件已发送请查收...')
-'''
